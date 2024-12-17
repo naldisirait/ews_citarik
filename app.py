@@ -11,7 +11,7 @@ from src.utils import get_current_datetime
 from models.discharge.model_ml1 import inference_ml1
 from models.inundation.model_ml2 import inference_ml2
 from src.data_ingesting import get_input_ml1, get_input_ml1_hujan_max
-from src.post_processing import output_ml1_to_dict, output_ml2_to_dict, ensure_jsonable
+from src.post_processing import output_ml1_to_dict, output_ml2_to_dict, ensure_jsonable, maketiffsukabumi
 
 # Load YAML configuration
 def load_config(config_path):

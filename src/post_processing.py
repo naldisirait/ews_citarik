@@ -3,8 +3,30 @@ import json
 import torch
 from datetime import datetime, timedelta
 import json
-import numpy as np
+from rasterio.transform import from_origin
+import rasterio
 import torch
+
+def maketiffsukabumi(data, filename):
+    data[data<0.1] = -9999
+    top_left_x = 668500      
+    top_left_y = 9227000    
+    pixel_size_x = 5    
+    pixel_size_y = 5
+    transform = from_origin(top_left_x, top_left_y, pixel_size_x, pixel_size_y)
+    crs = "EPSG:32748"
+    with rasterio.open(
+     filename, "w", 
+     driver="GTiff", 
+     height=data.shape[0], 
+     width=data.shape[1], 
+     count=1, 
+     dtype=data.dtype,
+     crs=crs, 
+     transform=transform,
+     nodata=-9999
+    ) as dst:
+     dst.write(data, 1)
 
 def is_jsonable(x):
     """
