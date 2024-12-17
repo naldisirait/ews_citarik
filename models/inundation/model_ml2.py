@@ -96,10 +96,11 @@ def wse_to_depth(wse):
     Retrurns:
         depth(np.ndarray): predicted depth with shape(width, height)
     """
-    wse = extend_wse(wse,20,5)
+    wse = np.array(extend_wse(wse,20,5))
     path_dtm = './data/DEM Sukabumi.pkl'
     with open(path_dtm, 'rb') as file:
-        arr_dtm = pickle.load(file)
+        arr_dtm = np.array(pickle.load(file))
+    assert arr_dtm.shape == wse.shape, "The shape should be the same!!"
     depth = wse - arr_dtm
     # depth[depth<0] = 0
     # depth[depth>3] = 3
