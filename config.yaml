@@ -1,0 +1,11 @@
+# config.yaml
+model:
+  input_size_ml2: 24
+  path_hujan_hist_72jam: "./data/hujan_72_jam.pkl"
+  path_trained_ml1_f16: "./models/discharge/Hasil eksperimen Sukabumi ML 1 forecast 16 best.pth"
+  path_trained_ml1_f8: "./models/discharge/Hasil eksperimen Sukabumi ML 1 forecast 8 best.pth.pth"
+  path_trained_ml2: "./models/inundation/CNN Kabir Sukabumi best by ssim.pth"
+
+data_processing:
+  gsmap_correction_factor_path: "./data/correction factors.pkl"
+  path_hujan_hist_72jam: "./data/hujan_72_jam.pkl"

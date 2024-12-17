@@ -1,0 +1,520 @@
+{
+    "57": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "58": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "59": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "60": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "61": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "CH INTAKE LEWARA",
+            "SAMBO"
+        ],
+        "percentage": [
+            50,
+            48,
+            0
+        ]
+    },
+    "62": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "63": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "74": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "75": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "76": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA",
+            "SAMBO"
+        ],
+        "percentage": [
+            94,
+            5
+        ]
+    },
+    "77": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA",
+            "SAMBO"
+        ],
+        "percentage": [
+            42,
+            57
+        ]
+    },
+    "78": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "CH INTAKE LEWARA",
+            "SAMBO"
+        ],
+        "percentage": [
+            84,
+            1,
+            14
+        ]
+    },
+    "79": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "80": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "91": {
+        "nama_stasiun": [
+            "SAMBO",
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            1,
+            98
+        ]
+    },
+    "92": {
+        "nama_stasiun": [
+            "SAMBO",
+            "CH INTAKE LEWARA",
+            "SAMBO"
+        ],
+        "percentage": [
+            9,
+            64,
+            26
+        ]
+    },
+    "93": {
+        "nama_stasiun": [
+            "CH INTAKE LEWARA",
+            "SAMBO"
+        ],
+        "percentage": [
+            9,
+            90
+        ]
+    },
+    "94": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "SAMBO"
+        ],
+        "percentage": [
+            12,
+            87
+        ]
+    },
+    "95": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "SAMBO"
+        ],
+        "percentage": [
+            99,
+            0
+        ]
+    },
+    "96": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "97": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "108": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "SAMBO",
+            "CH INTAKE LEWARA"
+        ],
+        "percentage": [
+            7,
+            86,
+            5
+        ]
+    },
+    "109": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "SAMBO",
+            "SAMBO"
+        ],
+        "percentage": [
+            1,
+            95,
+            2
+        ]
+    },
+    "110": {
+        "nama_stasiun": [
+            "SAMBO",
+            "SAMBO"
+        ],
+        "percentage": [
+            50,
+            49
+        ]
+    },
+    "111": {
+        "nama_stasiun": [
+            "SAMBO",
+            "CH TONGOA",
+            "SAMBO"
+        ],
+        "percentage": [
+            3,
+            41,
+            55
+        ]
+    },
+    "112": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "113": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "114": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "125": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "126": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "SAMBO"
+        ],
+        "percentage": [
+            99,
+            0
+        ]
+    },
+    "127": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "SAMBO",
+            "CH TUVA"
+        ],
+        "percentage": [
+            66,
+            8,
+            25
+        ]
+    },
+    "128": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "SAMBO",
+            "CH TONGOA",
+            "CH TUVA",
+            "SAMBO"
+        ],
+        "percentage": [
+            4,
+            5,
+            37,
+            51,
+            0
+        ]
+    },
+    "129": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "130": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "131": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "142": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "CH TUVA"
+        ],
+        "percentage": [
+            97,
+            2
+        ]
+    },
+    "143": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "CH TUVA"
+        ],
+        "percentage": [
+            49,
+            50
+        ]
+    },
+    "144": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "CH TUVA"
+        ],
+        "percentage": [
+            1,
+            98
+        ]
+    },
+    "145": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "CH TUVA"
+        ],
+        "percentage": [
+            1,
+            98
+        ]
+    },
+    "146": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "CH TUVA"
+        ],
+        "percentage": [
+            82,
+            17
+        ]
+    },
+    "147": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "148": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "159": {
+        "nama_stasiun": [
+            "CH BANGGA BAWAH",
+            "CH TUVA"
+        ],
+        "percentage": [
+            9,
+            90
+        ]
+    },
+    "160": {
+        "nama_stasiun": [
+            "CH TUVA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "161": {
+        "nama_stasiun": [
+            "CH TUVA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "162": {
+        "nama_stasiun": [
+            "CH TUVA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "163": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "CH TUVA"
+        ],
+        "percentage": [
+            27,
+            72
+        ]
+    },
+    "164": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "165": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    },
+    "176": {
+        "nama_stasiun": [
+            "CH TUVA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "177": {
+        "nama_stasiun": [
+            "CH TUVA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "178": {
+        "nama_stasiun": [
+            "CH TUVA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "179": {
+        "nama_stasiun": [
+            "CH TUVA"
+        ],
+        "percentage": [
+            100
+        ]
+    },
+    "180": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "CH TUVA"
+        ],
+        "percentage": [
+            0,
+            99
+        ]
+    },
+    "181": {
+        "nama_stasiun": [
+            "CH TONGOA",
+            "CH TUVA"
+        ],
+        "percentage": [
+            75,
+            24
+        ]
+    },
+    "182": {
+        "nama_stasiun": [
+            "CH TONGOA"
+        ],
+        "percentage": [
+            99
+        ]
+    }
+}
