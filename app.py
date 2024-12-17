@@ -1,5 +1,4 @@
 #import module from global env
-from pydantic import BaseModel
 import numpy as np
 import torch
 import os
