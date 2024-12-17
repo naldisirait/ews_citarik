@@ -1,5 +1,4 @@
 #import module from global env
-from fastapi import FastAPI
 from pydantic import BaseModel
 import numpy as np
 import torch
@@ -21,11 +20,6 @@ def load_config(config_path):
         config = yaml.safe_load(file)
     return config
 
-# Define the input model
-class PredictionInput(BaseModel):
-    t0: str
-
-app = FastAPI()
 def do_prediction(t0=None):
     
     # Get configuration to run the system
@@ -76,16 +70,6 @@ def do_prediction(t0=None):
     
     # output = ensure_jsonable(output)
     # return output
-
-# @app.post("/predict")
-# async def predict(input_data: PredictionInput):
-#     output = do_prediction(t0=input_data.t0)
-#     return output
-
-@app.post("/predict")
-async def predict():
-    output = do_prediction(t0=None)
-    return output
 
 # Run the application using the following command:
 # uvicorn app2:app --reload
