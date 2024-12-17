@@ -101,8 +101,8 @@ def wse_to_depth(wse):
     with open(path_dtm, 'rb') as file:
         arr_dtm = pickle.load(file)
     depth = wse - arr_dtm
-    depth[depth<0] = 0
-    depth[depth>3] = 3
+    # depth[depth<0] = 0
+    # depth[depth>3] = 3
     return depth
 
 def get_non_flood_depth():
