@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.optim as optim
 import pickle
 import numpy as np
-
 class CNNModelBN(nn.Module):
     def __init__(self, steps, features, outputs):
         super(CNNModelBN, self).__init__()
@@ -74,7 +73,7 @@ def load_model_ml2(width, height, device):
     model = CNNModelBN(steps=steps, features=features, outputs=output_size)
     model.to(device)
     path_trained_model_ml2 = "./models/inundation/CNN Kabir Sukabumi best by ssim.pth"
-    model.load_state_dict(torch.load(path_trained_model_ml2,weights_only=True,map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load(path_trained_model_ml2, weights_only=True, map_location=torch.device('cpu')))
     model.eval()
     print("Successfully loaded ml2")
     return model
