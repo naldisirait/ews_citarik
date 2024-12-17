@@ -3,6 +3,10 @@ import torch.nn as nn
 import torch.optim as optim
 import pickle
 import numpy as np
+from scipy.ndimage import zoom
+import rasterio
+from rasterio.transform import from_origin
+
 class CNNModelBN(nn.Module):
     def __init__(self, steps, features, outputs):
         super(CNNModelBN, self).__init__()
@@ -78,6 +82,12 @@ def load_model_ml2(width, height, device):
     print("Successfully loaded ml2")
     return model
 
+#pastikan jangan menggunakan linear, orde = 2. baca dokumentasi zoom
+def extend_wse(data, resolusi_awal, resolusi_akhir):
+    scalefactor = (resolusi_awal/resolusi_akhir, resolusi_awal/resolusi_akhir)
+    extended = zoom(data, scalefactor, order=0) #0, Nearest Neighboor, 1 Linear, 3 Cubic
+    return extended
+
 def wse_to_depth(wse):
     """
     function to convert predicted wse into depth
@@ -86,18 +96,10 @@ def wse_to_depth(wse):
     Retrurns:
         depth(np.ndarray): predicted depth with shape(width, height)
     """
-    # Open data dtm
-    wse = wse.tolist()
-    wse = np.array(wse)
-    path_dtm = './data/data dtm.pkl'
+    wse = extend_wse(wse,20,5)
+    path_dtm = './data/DEM Sukabumi.pkl'
     with open(path_dtm, 'rb') as file:
-        loaded_data = pickle.load(file)
-        arr_dtm = loaded_data['arr_dtm']
-
-    arr_dtm = np.array(arr_dtm)
-    # print(f"wse type {type(wse)}, arr_dtm type {type(arr_dtm)}")
-    # print(f"wse dtype: {wse.dtype}, arr_dtm dtype: {arr_dtm.dtype}")
-    # print(wse.shape, arr_dtm.shape)
+        arr_dtm = pickle.load(file)
     depth = wse - arr_dtm
     depth[depth<0] = 0
     depth[depth>3] = 3
